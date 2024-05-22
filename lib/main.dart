@@ -33,7 +33,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   final TextEditingController userMessage = TextEditingController();
 
-  static const apiKey = "AIzaSyAxSbALRtjB5TDoBPOVJiErK9GUTE-3OWM";
+ static const apiKey = "API_CREDENTIAL"; // https://aistudio.google.com/
 
   final model = GenerativeModel(apiKey: apiKey, model: 'gemini-1.5-pro-latest');
 
